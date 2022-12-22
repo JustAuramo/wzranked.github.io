@@ -1,0 +1,2898 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-y-scroll overscroll-y-none">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover"
+        class="jsx-2930886620">
+    <title>Warzone 2.0 Stats and Loadouts Tracker - WZ Ranked</title>
+    <meta name="description"
+        content="Discover meta loadouts for Warzone 2, track your stats and records, compare with friends, and see whether you have played against popular streamers.">
+    <link rel="preload" as="image" href="raal-mg.png">
+    <link rel="preload" as="image" href="stb-556.png">
+    <link rel="preload" as="image" href="guns/rpk.png">
+    <link rel="preload" as="image" href="guns/taq-56.png">
+    <link rel="preload" as="image" href="kastov-762.png">
+    <meta name="next-head-count" content="9">
+    <link rel="icon" href="favicon.png">
+    <meta name="application-name" content="WZ Ranked">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="WZ Ranked">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" href="wzranked-b120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="wzranked-b152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="wzranked-b167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="wzranked-b180.png">
+    <link sizes="192x192" href="wzranked-b192.png">
+    <link sizes="128x128" href="wzranked-b128.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="preload" href="_next/static/media/2aaf0723e720e8b9.p.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous">
+    <link rel="preload" href="_next/static/css/0c92cc52e915a8b9.css" as="style">
+    <link rel="stylesheet" href="teema.css" data-n-g=""><noscript data-n-css=""></noscript>
+    <script defer="" nomodule="" src="_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+    <script src="_next/static/chunks/webpack-fbb4ff3fc0059095.js" defer=""></script>
+    <script src="_next/static/chunks/framework-3b5a00d5d7e8d93b.js" defer=""></script>
+    <script src="_next/static/chunks/main-5b5c82099773cebd.js" defer=""></script>
+    <script src="_next/static/chunks/pages/_app-84c19b2d2b9d7c50.js" defer=""></script>
+    <script src="_next/static/chunks/pages/index-9cc150d71b63fa57.js" defer=""></script>
+    <script src="_next/static/qSuuy6oYNZi2ZZcs2JWQ-/_buildManifest.js" defer=""></script>
+    <script src="_next/static/qSuuy6oYNZi2ZZcs2JWQ-/_ssgManifest.js" defer=""></script>
+    <style id="__jsx-2930886620">
+        :root {
+            --inter-font: '__Inter_a739b1', '__Inter_Fallback_a739b1'
+        }
+    </style>
+</head>
+
+<body class="h-full bg-custom-background-primary">
+    <div id="__next">
+        <div class="min-h-screen pt-[6.5rem] md:pt-[3.25rem]">
+            <header
+                class="fixed top-0 z-10 w-full border-b border-custom-separator-transparent bg-custom-background-secondary px-2">
+                <nav class="mx-auto max-w-6xl" aria-label="Top">
+                    <div class="w-full py-2">
+                        <div class="flex items-center justify-between space-x-2"><a
+                                class="text-xl font-bold text-custom-text-primary" href="index.htm">WZ Ranked</a>
+                            <div class="hidden space-x-2 md:block"><a
+                                    class="text-custom-text-secondary hover:bg-custom-background-tertiary hover:text-custom-text-primary group relative inline-flex items-center rounded-md py-2 px-3 text-sm font-medium"
+                                    href="wz2/stats"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20"
+                                        fill="currentColor" aria-hidden="true"
+                                        class="text-custom-text-secondary group-hover:text-custom-text-primary mr-1 h-4 w-4">
+                                        <path
+                                            d="M7 8a3 3 0 100-6 3 3 0 000 6zM14.5 9a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM1.615 16.428a1.224 1.224 0 01-.569-1.175 6.002 6.002 0 0111.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 017 18a9.953 9.953 0 01-5.385-1.572zM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 00-1.588-3.755 4.502 4.502 0 015.874 2.636.818.818 0 01-.36.98A7.465 7.465 0 0114.5 16z">
+                                        </path>
+                                    </svg><span>Stats</span><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20"
+                                        fill="currentColor" aria-hidden="true"
+                                        class="absolute top-1 right-1 block h-4 w-4 -translate-y-1/2 translate-x-1/2 transform text-red-400">
+                                        <path fill-rule="evenodd"
+                                            d="M8.485 2.495c.673-1.167 2.357-1.167 3.03 0l6.28 10.875c.673 1.167-.17 2.625-1.516 2.625H3.72c-1.347 0-2.189-1.458-1.515-2.625L8.485 2.495zM10 5a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 5zm0 9a1 1 0 100-2 1 1 0 000 2z"
+                                            clip-rule="evenodd"></path>
+                                    </svg></a><a
+                                    class="text-custom-text-secondary hover:bg-custom-background-tertiary hover:text-custom-text-primary group relative inline-flex items-center rounded-md py-2 px-3 text-sm font-medium"
+                                    href="wz2/meta/guns"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20"
+                                        fill="currentColor" aria-hidden="true"
+                                        class="text-custom-text-secondary group-hover:text-custom-text-primary mr-1 h-4 w-4">
+                                        <path fill-rule="evenodd"
+                                            d="M13.5 4.938a7 7 0 11-9.006 1.737c.202-.257.59-.218.793.039.278.352.594.672.943.954.332.269.786-.049.773-.476a5.977 5.977 0 01.572-2.759 6.026 6.026 0 012.486-2.665c.247-.14.55-.016.677.238A6.967 6.967 0 0013.5 4.938zM14 12a4 4 0 01-4 4c-1.913 0-3.52-1.398-3.91-3.182-.093-.429.44-.643.814-.413a4.043 4.043 0 001.601.564c.303.038.531-.24.51-.544a5.975 5.975 0 011.315-4.192.447.447 0 01.431-.16A4.001 4.001 0 0114 12z"
+                                            clip-rule="evenodd"></path>
+                                    </svg><span>Meta</span></a><a
+                                    class="text-custom-text-secondary hover:bg-custom-background-tertiary hover:text-custom-text-primary group relative inline-flex items-center rounded-md py-2 px-3 text-sm font-medium"
+                                    href="/streamers/wz2/builds.html"><svg xmlns="http://www.w3.org/2000/svg"
+                                        viewbox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                                        class="text-custom-text-secondary group-hover:text-custom-text-primary mr-1 h-4 w-4">
+                                        <path
+                                            d="M3.25 4A2.25 2.25 0 001 6.25v7.5A2.25 2.25 0 003.25 16h7.5A2.25 2.25 0 0013 13.75v-7.5A2.25 2.25 0 0010.75 4h-7.5zM19 4.75a.75.75 0 00-1.28-.53l-3 3a.75.75 0 00-.22.53v4.5c0 .199.079.39.22.53l3 3a.75.75 0 001.28-.53V4.75z">
+                                        </path>
+                                    </svg><span>Streamers</span></a></div><button
+                                class="group inline-flex items-center rounded-full py-2 px-2 text-custom-text-secondary hover:bg-custom-background-tertiary hover:text-custom-text-primary"><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor"
+                                    aria-hidden="true"
+                                    class="h-5 w-5 text-custom-text-secondary group-hover:text-custom-text-primary">
+                                    <path fill-rule="evenodd"
+                                        d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                                        clip-rule="evenodd"></path>
+                                </svg><span class="sr-only">Search</span></button>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="px-2 py-4">
+                <main class="mx-auto max-w-6xl space-y-16">
+                    <section class="space-y-4">
+                        <header class="flex items-center justify-between">
+                            <h1 class="text-xl font-medium leading-6 text-custom-text-primary"><a
+                                    class="flex items-center hover:underline" href="/streamers/wz2/builds.html">Most Recent
+                                    Warzone 2 Builds<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20"
+                                        fill="currentColor" aria-hidden="true" class="ml-1 h-6 w-6">
+                                        <path fill-rule="evenodd"
+                                            d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                            clip-rule="evenodd"></path>
+                                    </svg></a></h1>
+                        </header>
+                        <ul role="list" class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
+                            <li class="flex flex-col space-y-2">
+                                <div class="flex flex-col rounded-md bg-custom-background-secondary p-2">
+                                    <div class="flex flex-1 items-center space-x-2 truncate pb-2"><a
+                                            class="flex-shrink-0 hover:brightness-75" tabindex="-1"
+                                            href="speros/wz2/builds"><img alt="Speros"
+                                                src="qsBqH8yJ1JrCTHea1S9ANeWGn12VtC-ovU0CqIQHEqKJfjRvI49txaDsHscSz4NscsEd_Q_S%3Ds88-c-k-c0x00ffffff-no-rj"
+                                                width="32" height="32" decoding="async" data-nimg="1"
+                                                class="rounded-full" loading="lazy" style="color:transparent"></a>
+                                        <div class="flex flex-col"><span class="flex"><a
+                                                    class="text-sm text-custom-text-primary hover:underline"
+                                                    href="speros/wz2/builds">Speros</a></span><span class="flex"><a
+                                                    class="text-xs text-custom-text-secondary hover:underline"
+                                                    href="streamers/wz2/builds%20%281%29/276"><time
+                                                        datetime="2022-12-20T20:00:05.000Z" title="2022-12-20 20:00">3
+                                                        hours ago</time></a></span></div>
+                                    </div><a class="hover:brightness-75" href="streamers/wz2/builds%20%281%29/276">
+                                        <div class="flex items-center justify-between">
+                                            <h2 class="text-md font-medium leading-6 text-custom-text-primary">Raal MG
+                                            </h2><span
+                                                class="inline-flex items-center whitespace-nowrap rounded-md bg-custom-background-tertiary px-2.5 py-0.5 text-sm font-medium text-custom-text-secondary">LMG</span>
+                                        </div><img alt="Raal MG" src="images/mw2/guns/raal-mg.png" width="192"
+                                            height="96" decoding="async" data-nimg="1" class="mx-auto"
+                                            style="color:transparent">
+                                        <dl class="flex flex-col space-y-1">
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Muzzle</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Talon Sixteen</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Optic</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Aim OP-V4</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Underbarrel</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">SA Side Grip</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Ammunition</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">.338 Mag High
+                                                    Velocity</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Rear Grip</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">STIP-40 Grip</dd>
+                                            </div>
+                                        </dl>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="flex flex-col space-y-2">
+                                <div class="flex flex-col rounded-md bg-custom-background-secondary p-2">
+                                    <div class="flex flex-1 items-center space-x-2 truncate pb-2"><a
+                                            class="flex-shrink-0 hover:brightness-75" tabindex="-1"
+                                            href="booya/wz2/builds"><img alt="FaZe Booya"
+                                                src="SgMgzONEW-PJZWxibb92dxHz_Gxw7QI9w39gawqcs5Fe3iNpJv5IQHYOFqblkueRKM5soFek7-g%3Ds88-c-k-c0x00ffffff-no-rj"
+                                                width="32" height="32" decoding="async" data-nimg="1"
+                                                class="rounded-full" loading="lazy" style="color:transparent"></a>
+                                        <div class="flex flex-col"><span class="flex"><a
+                                                    class="text-sm text-custom-text-primary hover:underline"
+                                                    href="booya/wz2/builds">FaZe Booya</a></span><span class="flex"><a
+                                                    class="text-xs text-custom-text-secondary hover:underline"
+                                                    href="streamers/wz2/builds%20%281%29/277"><time
+                                                        datetime="2022-12-20T17:00:08.000Z" title="2022-12-20 17:00">6
+                                                        hours ago</time></a></span></div>
+                                    </div><a class="hover:brightness-75" href="streamers/wz2/builds%20%281%29/277">
+                                        <div class="flex items-center justify-between">
+                                            <h2 class="text-md font-medium leading-6 text-custom-text-primary">STB 556
+                                            </h2><span
+                                                class="inline-flex items-center whitespace-nowrap rounded-md bg-custom-background-tertiary px-2.5 py-0.5 text-sm font-medium text-custom-text-secondary">AR</span>
+                                        </div><img alt="STB 556" src="images/mw2/guns/stb-556.png" width="192"
+                                            height="96" decoding="async" data-nimg="1" class="mx-auto"
+                                            style="color:transparent">
+                                        <dl class="flex flex-col space-y-1">
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Barrel</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Bruen Turaco 686mm
+                                                </dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Optic</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Aim OP-V4</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Underbarrel</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">FTAC Ripper 56
+                                                </dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Magazine</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">42 Round Mag</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Rear Grip</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">STIP-40 Grip</dd>
+                                            </div>
+                                        </dl>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="flex flex-col space-y-2">
+                                <div class="flex flex-col rounded-md bg-custom-background-secondary p-2">
+                                    <div class="flex flex-1 items-center space-x-2 truncate pb-2"><a
+                                            class="flex-shrink-0 hover:brightness-75" tabindex="-1"
+                                            href="jgod/wz2/builds"><img alt="JGOD"
+                                                src="bi3teNHhFik0iySQqayG3-miod78bteKGHQd5gUYHiMVl8bA2qtCOPg3iG5d1SC9iZ6slsD4GkQ%3Ds88-c-k-c0x00ffffff-no-rj"
+                                                width="32" height="32" decoding="async" data-nimg="1"
+                                                class="rounded-full" loading="lazy" style="color:transparent"></a>
+                                        <div class="flex flex-col"><span class="flex"><a
+                                                    class="text-sm text-custom-text-primary hover:underline"
+                                                    href="jgod/wz2/builds">JGOD</a></span><span class="flex"><a
+                                                    class="text-xs text-custom-text-secondary hover:underline"
+                                                    href="streamers/wz2/builds%20%281%29/275"><time
+                                                        datetime="2022-12-20T14:00:09.000Z" title="2022-12-20 14:00">9
+                                                        hours ago</time></a></span></div>
+                                    </div><a class="hover:brightness-75" href="streamers/wz2/builds%20%281%29/275">
+                                        <div class="flex items-center justify-between">
+                                            <h2 class="text-md font-medium leading-6 text-custom-text-primary">RPK</h2>
+                                            <span
+                                                class="inline-flex items-center whitespace-nowrap rounded-md bg-custom-background-tertiary px-2.5 py-0.5 text-sm font-medium text-custom-text-secondary">LMG</span>
+                                        </div><img alt="RPK" src="images/mw2/guns/rpk.png" width="192" height="96"
+                                            decoding="async" data-nimg="1" class="mx-auto" style="color:transparent">
+                                        <dl class="flex flex-col space-y-1">
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Muzzle</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Zulu-60</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Laser</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Schlager PEQ Box
+                                                    IV</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Optic</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Aim OP-V4</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Underbarrel</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">FTAC Ripper 56
+                                                </dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Ammunition</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">7.62 High Velocity
+                                                </dd>
+                                            </div>
+                                        </dl>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="flex flex-col space-y-2">
+                                <div class="flex flex-col rounded-md bg-custom-background-secondary p-2">
+                                    <div class="flex flex-1 items-center space-x-2 truncate pb-2"><a
+                                            class="flex-shrink-0 hover:brightness-75" tabindex="-1"
+                                            href="jgod/wz2/builds"><img alt="JGOD"
+                                                src="bi3teNHhFik0iySQqayG3-miod78bteKGHQd5gUYHiMVl8bA2qtCOPg3iG5d1SC9iZ6slsD4GkQ%3Ds88-c-k-c0x00ffffff-no-rj"
+                                                width="32" height="32" decoding="async" data-nimg="1"
+                                                class="rounded-full" loading="lazy" style="color:transparent"></a>
+                                        <div class="flex flex-col"><span class="flex"><a
+                                                    class="text-sm text-custom-text-primary hover:underline"
+                                                    href="jgod/wz2/builds">JGOD</a></span><span class="flex"><a
+                                                    class="text-xs text-custom-text-secondary hover:underline"
+                                                    href="streamers/wz2/builds%20%281%29/274"><time
+                                                        datetime="2022-12-20T14:00:09.000Z" title="2022-12-20 14:00">9
+                                                        hours ago</time></a></span></div>
+                                    </div><a class="hover:brightness-75" href="streamers/wz2/builds%20%281%29/274">
+                                        <div class="flex items-center justify-between">
+                                            <h2 class="text-md font-medium leading-6 text-custom-text-primary">TAQ-56
+                                            </h2><span
+                                                class="inline-flex items-center whitespace-nowrap rounded-md bg-custom-background-tertiary px-2.5 py-0.5 text-sm font-medium text-custom-text-secondary">AR</span>
+                                        </div><img alt="TAQ-56" src="images/mw2/guns/taq-56.png" width="192" height="96"
+                                            decoding="async" data-nimg="1" class="mx-auto" style="color:transparent">
+                                        <dl class="flex flex-col space-y-1">
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Muzzle</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Gauge-9 Mono</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Optic</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Aim OP-V4</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Underbarrel</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">FTAC Ripper 56
+                                                </dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Ammunition</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">5.56 High Velocity
+                                                </dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Magazine</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">60 Round Mag</dd>
+                                            </div>
+                                        </dl>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="flex flex-col space-y-2">
+                                <div class="flex flex-col rounded-md bg-custom-background-secondary p-2">
+                                    <div class="flex flex-1 items-center space-x-2 truncate pb-2"><a
+                                            class="flex-shrink-0 hover:brightness-75" tabindex="-1"
+                                            href="jgod/wz2/builds"><img alt="JGOD"
+                                                src="bi3teNHhFik0iySQqayG3-miod78bteKGHQd5gUYHiMVl8bA2qtCOPg3iG5d1SC9iZ6slsD4GkQ%3Ds88-c-k-c0x00ffffff-no-rj"
+                                                width="32" height="32" decoding="async" data-nimg="1"
+                                                class="rounded-full" loading="lazy" style="color:transparent"></a>
+                                        <div class="flex flex-col"><span class="flex"><a
+                                                    class="text-sm text-custom-text-primary hover:underline"
+                                                    href="jgod/wz2/builds">JGOD</a></span><span class="flex"><a
+                                                    class="text-xs text-custom-text-secondary hover:underline"
+                                                    href="streamers/wz2/builds%20%281%29/273"><time
+                                                        datetime="2022-12-20T14:00:09.000Z" title="2022-12-20 14:00">9
+                                                        hours ago</time></a></span></div>
+                                    </div><a class="hover:brightness-75" href="streamers/wz2/builds%20%281%29/273">
+                                        <div class="flex items-center justify-between">
+                                            <h2 class="text-md font-medium leading-6 text-custom-text-primary">Kastov
+                                                762</h2><span
+                                                class="inline-flex items-center whitespace-nowrap rounded-md bg-custom-background-tertiary px-2.5 py-0.5 text-sm font-medium text-custom-text-secondary">AR</span>
+                                        </div><img alt="Kastov 762" src="images/mw2/guns/kastov-762.png" width="192"
+                                            height="96" decoding="async" data-nimg="1" class="mx-auto"
+                                            style="color:transparent">
+                                        <dl class="flex flex-col space-y-1">
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Muzzle</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">ZLR Talon 5</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Barrel</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">KAS-10 584mm
+                                                    Barrel</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Optic</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Aim OP-V4</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Underbarrel</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">FTAC Ripper 56
+                                                </dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Magazine</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">40 Round Mag</dd>
+                                            </div>
+                                        </dl>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="flex flex-col space-y-2">
+                                <div class="flex flex-col rounded-md bg-custom-background-secondary p-2">
+                                    <div class="flex flex-1 items-center space-x-2 truncate pb-2"><a
+                                            class="flex-shrink-0 hover:brightness-75" tabindex="-1"
+                                            href="jgod/wz2/builds"><img alt="JGOD"
+                                                src="bi3teNHhFik0iySQqayG3-miod78bteKGHQd5gUYHiMVl8bA2qtCOPg3iG5d1SC9iZ6slsD4GkQ%3Ds88-c-k-c0x00ffffff-no-rj"
+                                                width="32" height="32" decoding="async" data-nimg="1"
+                                                class="rounded-full" loading="lazy" style="color:transparent"></a>
+                                        <div class="flex flex-col"><span class="flex"><a
+                                                    class="text-sm text-custom-text-primary hover:underline"
+                                                    href="jgod/wz2/builds">JGOD</a></span><span class="flex"><a
+                                                    class="text-xs text-custom-text-secondary hover:underline"
+                                                    href="streamers/wz2/builds%20%281%29/272"><time
+                                                        datetime="2022-12-20T14:00:09.000Z" title="2022-12-20 14:00">9
+                                                        hours ago</time></a></span></div>
+                                    </div><a class="hover:brightness-75" href="streamers/wz2/builds%20%281%29/272">
+                                        <div class="flex items-center justify-between">
+                                            <h2 class="text-md font-medium leading-6 text-custom-text-primary">Signal 50
+                                            </h2><span
+                                                class="inline-flex items-center whitespace-nowrap rounded-md bg-custom-background-tertiary px-2.5 py-0.5 text-sm font-medium text-custom-text-secondary">SR</span>
+                                        </div><img alt="Signal 50" src="images/mw2/guns/signal-50.png" width="192"
+                                            height="96" decoding="async" data-nimg="1" class="mx-auto" loading="lazy"
+                                            style="color:transparent">
+                                        <dl class="flex flex-col space-y-1">
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Muzzle</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Talon Sixteen
+                                                    Silencer</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Barrel</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">29&quot; TV
+                                                    Kilo-50</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Underbarrel</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">FTAC Ripper 56
+                                                </dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Ammunition</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">.50 Cal High
+                                                    Velocity</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Rear Grip</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Cronen Blockade
+                                                    Grip</dd>
+                                            </div>
+                                        </dl>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="flex flex-col space-y-2">
+                                <div class="flex flex-col rounded-md bg-custom-background-secondary p-2">
+                                    <div class="flex flex-1 items-center space-x-2 truncate pb-2"><a
+                                            class="flex-shrink-0 hover:brightness-75" tabindex="-1"
+                                            href="jgod/wz2/builds"><img alt="JGOD"
+                                                src="bi3teNHhFik0iySQqayG3-miod78bteKGHQd5gUYHiMVl8bA2qtCOPg3iG5d1SC9iZ6slsD4GkQ%3Ds88-c-k-c0x00ffffff-no-rj"
+                                                width="32" height="32" decoding="async" data-nimg="1"
+                                                class="rounded-full" loading="lazy" style="color:transparent"></a>
+                                        <div class="flex flex-col"><span class="flex"><a
+                                                    class="text-sm text-custom-text-primary hover:underline"
+                                                    href="jgod/wz2/builds">JGOD</a></span><span class="flex"><a
+                                                    class="text-xs text-custom-text-secondary hover:underline"
+                                                    href="streamers/wz2/builds%20%281%29/271"><time
+                                                        datetime="2022-12-20T14:00:09.000Z" title="2022-12-20 14:00">9
+                                                        hours ago</time></a></span></div>
+                                    </div><a class="hover:brightness-75" href="streamers/wz2/builds%20%281%29/271">
+                                        <div class="flex items-center justify-between">
+                                            <h2 class="text-md font-medium leading-6 text-custom-text-primary">TAQ-V
+                                            </h2><span
+                                                class="inline-flex items-center whitespace-nowrap rounded-md bg-custom-background-tertiary px-2.5 py-0.5 text-sm font-medium text-custom-text-secondary">BR</span>
+                                        </div><img alt="TAQ-V" src="images/mw2/guns/taq-v.png" width="192" height="96"
+                                            decoding="async" data-nimg="1" class="mx-auto" loading="lazy"
+                                            style="color:transparent">
+                                        <dl class="flex flex-col space-y-1">
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Muzzle</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">ZLR Talon 5</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Optic</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Aim OP-V4</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Underbarrel</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">FTAC Ripper 56
+                                                </dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Magazine</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">50 Round Drum</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Rear Grip</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">FSS Combat Grip
+                                                </dd>
+                                            </div>
+                                        </dl>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="flex flex-col space-y-2">
+                                <div class="flex flex-col rounded-md bg-custom-background-secondary p-2">
+                                    <div class="flex flex-1 items-center space-x-2 truncate pb-2"><a
+                                            class="flex-shrink-0 hover:brightness-75" tabindex="-1"
+                                            href="jgod/wz2/builds"><img alt="JGOD"
+                                                src="bi3teNHhFik0iySQqayG3-miod78bteKGHQd5gUYHiMVl8bA2qtCOPg3iG5d1SC9iZ6slsD4GkQ%3Ds88-c-k-c0x00ffffff-no-rj"
+                                                width="32" height="32" decoding="async" data-nimg="1"
+                                                class="rounded-full" loading="lazy" style="color:transparent"></a>
+                                        <div class="flex flex-col"><span class="flex"><a
+                                                    class="text-sm text-custom-text-primary hover:underline"
+                                                    href="jgod/wz2/builds">JGOD</a></span><span class="flex"><a
+                                                    class="text-xs text-custom-text-secondary hover:underline"
+                                                    href="streamers/wz2/builds%20%281%29/270"><time
+                                                        datetime="2022-12-20T14:00:09.000Z" title="2022-12-20 14:00">9
+                                                        hours ago</time></a></span></div>
+                                    </div><a class="hover:brightness-75" href="streamers/wz2/builds%20%281%29/270">
+                                        <div class="flex items-center justify-between">
+                                            <h2 class="text-md font-medium leading-6 text-custom-text-primary">Raal MG
+                                            </h2><span
+                                                class="inline-flex items-center whitespace-nowrap rounded-md bg-custom-background-tertiary px-2.5 py-0.5 text-sm font-medium text-custom-text-secondary">LMG</span>
+                                        </div><img alt="Raal MG" src="images/mw2/guns/raal-mg.png" width="192"
+                                            height="96" decoding="async" data-nimg="1" class="mx-auto" loading="lazy"
+                                            style="color:transparent">
+                                        <dl class="flex flex-col space-y-1">
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Muzzle</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Talon Sixteen</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Optic</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">Aim OP-V4</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Underbarrel</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">SA Side Grip</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Ammunition</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">.338 Mag High
+                                                    Velocity</dd>
+                                            </div>
+                                            <div class="flex justify-between space-x-2">
+                                                <dt class="truncate text-sm text-custom-text-secondary">Rear Grip</dt>
+                                                <dd class="truncate text-sm text-custom-text-primary">STIP-40 Grip</dd>
+                                            </div>
+                                        </dl>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+        </div>
+        <div class="">
+            <footer class="border-t border-custom-separator-transparent">
+                <div class="mx-auto max-w-6xl overflow-hidden py-3 px-4 sm:px-6 lg:px-8">
+                    <p class="mt-0 text-center text-base text-custom-text-secondary">Follow WZ Ranked on</p>
+                    <div class="mt-2 flex justify-center space-x-6"><a target="_blank"
+                            class="text-xl text-lime-500 hover:text-lime-600" href="https://twitter.com/WZRanked"><span
+                                class="sr-only">Twitter</span><svg stroke="currentColor" fill="currentColor"
+                                stroke-width="0" viewbox="0 0 512 512" height="1em" width="1em"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                </path>
+                            </svg></a><a target="_blank" class="text-xl text-lime-500 hover:text-lime-600"
+                            href="https://www.instagram.com/warzoneranked/"><span class="sr-only">Instagram</span><svg
+                                stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 448 512"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                </path>
+                            </svg></a><a target="_blank" class="text-xl text-lime-500 hover:text-lime-600"
+                            href="https://www.facebook.com/WZRanked"><span class="sr-only">Facebook</span><svg
+                                stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+                                </path>
+                            </svg></a><a target="_blank" class="text-xl text-lime-500 hover:text-lime-600"
+                            href="https://discord.gg/dfCkCwDhbF"><span class="sr-only">Discord</span><svg
+                                stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 640 512"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z">
+                                </path>
+                            </svg></a></div>
+                    <nav class="-mx-5 mt-1 flex flex-wrap justify-center" aria-label="Footer">
+                        <div class="px-5"><a
+                                class="text-xs text-custom-text-secondary hover:text-custom-text-primary hover:underline"
+                                href="about">About</a></div>
+                        <div class="px-5"><a
+                                class="text-xs text-custom-text-secondary hover:text-custom-text-primary hover:underline"
+                                href="tos">Terms of Service</a></div>
+                        <div class="px-5"><a
+                                class="text-xs text-custom-text-secondary hover:text-custom-text-primary hover:underline"
+                                href="policy">Privacy and Cookie Policy</a></div>
+                        <div class="px-5"><a
+                                class="text-xs text-custom-text-secondary hover:text-custom-text-primary hover:underline"
+                                href="wz/meta/primary">Warzone Caldera Meta</a></div>
+                    </nav>
+                    <p class="mt-2 text-center text-xs text-custom-text-secondary">WZ Ranked is a fanmade project.
+                        Activision Publishing, Inc. does not endorse and is not responsible for this site or its
+                        content. Activision, Call of Duty, Call of Duty: Warzone and Warzone are trademarks of
+                        Activision Publishing, Inc.</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+        {
+            "props": {
+                "pageProps": {
+                    "dataBuilds": [{
+                        "game": "wz2",
+                        "buildid": 276,
+                        "username": "speros",
+                        "displayname": "Speros",
+                        "avatar": "https://yt3.ggpht.com/qsBqH8yJ1JrCTHea1S9ANeWGn12VtC-ovU0CqIQHEqKJfjRvI49txaDsHscSz4NscsEd_Q_S=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@speros_og",
+                        "modifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Talon Sixteen",
+                            "tuningx": 1,
+                            "tuningy": 1.4,
+                            "unlock": [{
+                                "weapon": "Lockwood MK2",
+                                "level": 2
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Aim OP-V4",
+                            "tuningx": -1.65,
+                            "tuningy": 3,
+                            "unlock": [{
+                                "weapon": "BAS-P",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "SA Side Grip",
+                            "tuningx": 0.4,
+                            "tuningy": 0.8,
+                            "unlock": [{
+                                "weapon": "Raal MG",
+                                "level": 19
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": ".338 Mag High Velocity",
+                            "tuningx": -9,
+                            "tuningy": -0.7,
+                            "unlock": [{
+                                "weapon": "Raal MG",
+                                "level": 7
+                            }]
+                        }, {
+                            "slot": "Magazine",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "STIP-40 Grip",
+                            "tuningx": 0.45,
+                            "tuningy": 1,
+                            "unlock": [{
+                                "weapon": "Raal MG",
+                                "level": 8
+                            }]
+                        }],
+                        "created_at": "2022-12-20T20:00:05+00:00",
+                        "created_date": "2022-12-20",
+                        "createdsortnr": 1,
+                        "slug": "raal-mg",
+                        "weapon": "Raal MG",
+                        "type": "LMG",
+                        "platform": "Raal",
+                        "tier": "A",
+                        "ammotype": ".338 Norma Mag",
+                        "unlock": {
+                            "name": "Player",
+                            "level": 25
+                        },
+                        "youtubeid": "LkgGK1i14Ng",
+                        "thumbnail": "https://i.ytimg.com/vi/LkgGK1i14Ng/mqdefault.jpg",
+                        "title": "The RAAL MG has the Best TTK in WARZONE 2! 🔥 (Best RAAL MG Class Setup / Loadout) - MW2 | Build God",
+                        "views": 427,
+                        "likes": 39,
+                        "comments": 4
+                    }, {
+                        "game": "wz2",
+                        "buildid": 277,
+                        "username": "booya",
+                        "displayname": "FaZe Booya",
+                        "avatar": "https://yt3.ggpht.com/SgMgzONEW-PJZWxibb92dxHz_Gxw7QI9w39gawqcs5Fe3iNpJv5IQHYOFqblkueRKM5soFek7-g=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@fazebooya",
+                        "modifications": [{
+                            "slot": "Muzzle",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "Bruen Turaco 686mm",
+                            "tuningx": 0.4,
+                            "tuningy": 0.5,
+                            "unlock": [{
+                                "weapon": "HCR 56",
+                                "level": 17
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Aim OP-V4",
+                            "tuningx": -1.65,
+                            "tuningy": 0,
+                            "unlock": [{
+                                "weapon": "BAS-P",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "FTAC Ripper 56",
+                            "tuningx": 0.4,
+                            "tuningy": 0.8,
+                            "unlock": [{
+                                "weapon": "Lachmann-762",
+                                "level": 6
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "42 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "STB 556",
+                                "level": 9
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "STIP-40 Grip",
+                            "tuningx": 0.45,
+                            "tuningy": 1,
+                            "unlock": [{
+                                "weapon": "STB 556",
+                                "level": 10
+                            }]
+                        }, {
+                            "slot": "Comb",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "created_at": "2022-12-20T17:00:08+00:00",
+                        "created_date": "2022-12-20",
+                        "createdsortnr": 2,
+                        "slug": "stb-556",
+                        "weapon": "STB 556",
+                        "type": "AR",
+                        "platform": "Bruen Bullpup",
+                        "tier": "B",
+                        "ammotype": "5.56 NATO",
+                        "unlock": {
+                            "name": "Player",
+                            "level": 41
+                        },
+                        "youtubeid": "I7hJhMmSJ8k",
+                        "thumbnail": "https://i.ytimg.com/vi/I7hJhMmSJ8k/mqdefault.jpg",
+                        "title": "my STB 5.56 CLASS SETUP is a LASERBEAM in WARZONE 2! (Modern Warfare 2)",
+                        "views": 12848,
+                        "likes": 718,
+                        "comments": 56
+                    }, {
+                        "game": "wz2",
+                        "buildid": 275,
+                        "username": "jgod",
+                        "displayname": "JGOD",
+                        "avatar": "https://yt3.ggpht.com/bi3teNHhFik0iySQqayG3-miod78bteKGHQd5gUYHiMVl8bA2qtCOPg3iG5d1SC9iZ6slsD4GkQ=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@jgod",
+                        "modifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Zulu-60",
+                            "tuningx": -0.52,
+                            "tuningy": 0.72,
+                            "unlock": [{
+                                "weapon": "SP-R 208",
+                                "level": 3
+                            }, {
+                                "weapon": "M13B",
+                                "level": 19
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Laser",
+                            "modification": "Schlager PEQ Box IV",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "Signal 50",
+                                "level": 3
+                            }]
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Aim OP-V4",
+                            "tuningx": 1.8,
+                            "tuningy": 1.06,
+                            "unlock": [{
+                                "weapon": "BAS-P",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "FTAC Ripper 56",
+                            "tuningx": 0.27,
+                            "tuningy": -0.26,
+                            "unlock": [{
+                                "weapon": "Lachmann-762",
+                                "level": 6
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": "7.62 High Velocity",
+                            "tuningx": -2.03,
+                            "tuningy": -0.54,
+                            "unlock": [{
+                                "weapon": "Kastov 762",
+                                "level": 13
+                            }]
+                        }, {
+                            "slot": "Magazine",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "created_at": "2022-12-20T14:00:09+00:00",
+                        "created_date": "2022-12-20",
+                        "createdsortnr": 12,
+                        "slug": "rpk",
+                        "weapon": "RPK",
+                        "type": "LMG",
+                        "platform": "Kastovia",
+                        "tier": "S",
+                        "ammotype": "7.62 Soviet",
+                        "unlock": {
+                            "name": "Kastov 762",
+                            "level": 16
+                        },
+                        "youtubeid": "EJGRUFdipZM",
+                        "thumbnail": "https://i.ytimg.com/vi/EJGRUFdipZM/mqdefault.jpg",
+                        "title": "Top 10 Long Range Meta Weapons in Warzone 2 | Best Class Setups",
+                        "views": 57535,
+                        "likes": 2526,
+                        "comments": 207
+                    }, {
+                        "game": "wz2",
+                        "buildid": 274,
+                        "username": "jgod",
+                        "displayname": "JGOD",
+                        "avatar": "https://yt3.ggpht.com/bi3teNHhFik0iySQqayG3-miod78bteKGHQd5gUYHiMVl8bA2qtCOPg3iG5d1SC9iZ6slsD4GkQ=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@jgod",
+                        "modifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Gauge-9 Mono",
+                            "tuningx": -0.45,
+                            "tuningy": 0.95,
+                            "unlock": [{
+                                "weapon": "Kastov-74U",
+                                "level": 17
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Aim OP-V4",
+                            "tuningx": 1.8,
+                            "tuningy": 2.13,
+                            "unlock": [{
+                                "weapon": "BAS-P",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "FTAC Ripper 56",
+                            "tuningx": 0.25,
+                            "tuningy": 0.34,
+                            "unlock": [{
+                                "weapon": "Lachmann-762",
+                                "level": 6
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": "5.56 High Velocity",
+                            "tuningx": -5.81,
+                            "tuningy": -0.38,
+                            "unlock": [{
+                                "weapon": "STB 556",
+                                "level": 7
+                            }]
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "60 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "TAQ-56",
+                                "level": 17
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "created_at": "2022-12-20T14:00:09+00:00",
+                        "created_date": "2022-12-20",
+                        "createdsortnr": 3,
+                        "slug": "taq-56",
+                        "weapon": "TAQ-56",
+                        "type": "AR",
+                        "platform": "Tactique Verte",
+                        "tier": "S",
+                        "ammotype": "5.56 NATO",
+                        "unlock": {
+                            "name": "Player",
+                            "level": 19
+                        },
+                        "youtubeid": "EJGRUFdipZM",
+                        "thumbnail": "https://i.ytimg.com/vi/EJGRUFdipZM/mqdefault.jpg",
+                        "title": "Top 10 Long Range Meta Weapons in Warzone 2 | Best Class Setups",
+                        "views": 57535,
+                        "likes": 2526,
+                        "comments": 207
+                    }, {
+                        "game": "wz2",
+                        "buildid": 273,
+                        "username": "jgod",
+                        "displayname": "JGOD",
+                        "avatar": "https://yt3.ggpht.com/bi3teNHhFik0iySQqayG3-miod78bteKGHQd5gUYHiMVl8bA2qtCOPg3iG5d1SC9iZ6slsD4GkQ=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@jgod",
+                        "modifications": [{
+                            "slot": "Muzzle",
+                            "modification": "ZLR Talon 5",
+                            "tuningx": -0.32,
+                            "tuningy": 0.09,
+                            "unlock": [{
+                                "weapon": "TAQ-M",
+                                "level": 22
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "KAS-10 584mm Barrel",
+                            "tuningx": -0.13,
+                            "tuningy": 0.21,
+                            "unlock": [{
+                                "weapon": "RPK",
+                                "level": 16
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Aim OP-V4",
+                            "tuningx": 1.8,
+                            "tuningy": -1.65,
+                            "unlock": [{
+                                "weapon": "BAS-P",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "FTAC Ripper 56",
+                            "tuningx": 0,
+                            "tuningy": 0.57,
+                            "unlock": [{
+                                "weapon": "Lachmann-762",
+                                "level": 6
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "40 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "Kastov 762",
+                                "level": 14
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "created_at": "2022-12-20T14:00:09+00:00",
+                        "created_date": "2022-12-20",
+                        "createdsortnr": 4,
+                        "slug": "kastov-762",
+                        "weapon": "Kastov 762",
+                        "type": "AR",
+                        "platform": "Kastovia",
+                        "tier": "S",
+                        "ammotype": "7.62 Soviet",
+                        "unlock": {
+                            "name": "Player",
+                            "level": 23
+                        },
+                        "youtubeid": "EJGRUFdipZM",
+                        "thumbnail": "https://i.ytimg.com/vi/EJGRUFdipZM/mqdefault.jpg",
+                        "title": "Top 10 Long Range Meta Weapons in Warzone 2 | Best Class Setups",
+                        "views": 57535,
+                        "likes": 2526,
+                        "comments": 207
+                    }, {
+                        "game": "wz2",
+                        "buildid": 272,
+                        "username": "jgod",
+                        "displayname": "JGOD",
+                        "avatar": "https://yt3.ggpht.com/bi3teNHhFik0iySQqayG3-miod78bteKGHQd5gUYHiMVl8bA2qtCOPg3iG5d1SC9iZ6slsD4GkQ=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@jgod",
+                        "modifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Talon Sixteen Silencer",
+                            "tuningx": -0.48,
+                            "tuningy": -0.36,
+                            "unlock": [{
+                                "weapon": "Victus XMR",
+                                "level": 25
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "29\" TV Kilo-50",
+                            "tuningx": -0.28,
+                            "tuningy": 0.27,
+                            "unlock": [{
+                                "weapon": "Signal 50",
+                                "level": 15
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "FTAC Ripper 56",
+                            "tuningx": 0.28,
+                            "tuningy": -0.26,
+                            "unlock": [{
+                                "weapon": "Lachmann-762",
+                                "level": 6
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": ".50 Cal High Velocity",
+                            "tuningx": -6.39,
+                            "tuningy": -0.34,
+                            "unlock": [{
+                                "weapon": "Victus XMR",
+                                "level": 9
+                            }]
+                        }, {
+                            "slot": "Magazine",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Cronen Blockade Grip",
+                            "tuningx": 0.38,
+                            "tuningy": 0.39,
+                            "unlock": [{
+                                "weapon": "Signal 50",
+                                "level": 22
+                            }]
+                        }],
+                        "created_at": "2022-12-20T14:00:09+00:00",
+                        "created_date": "2022-12-20",
+                        "createdsortnr": 5,
+                        "slug": "signal-50",
+                        "weapon": "Signal 50",
+                        "type": "SR",
+                        "platform": "Signal",
+                        "tier": "A",
+                        "ammotype": ".50 Cal",
+                        "unlock": {
+                            "name": "Player",
+                            "level": 44
+                        },
+                        "youtubeid": "EJGRUFdipZM",
+                        "thumbnail": "https://i.ytimg.com/vi/EJGRUFdipZM/mqdefault.jpg",
+                        "title": "Top 10 Long Range Meta Weapons in Warzone 2 | Best Class Setups",
+                        "views": 57535,
+                        "likes": 2526,
+                        "comments": 207
+                    }, {
+                        "game": "wz2",
+                        "buildid": 271,
+                        "username": "jgod",
+                        "displayname": "JGOD",
+                        "avatar": "https://yt3.ggpht.com/bi3teNHhFik0iySQqayG3-miod78bteKGHQd5gUYHiMVl8bA2qtCOPg3iG5d1SC9iZ6slsD4GkQ=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@jgod",
+                        "modifications": [{
+                            "slot": "Muzzle",
+                            "modification": "ZLR Talon 5",
+                            "tuningx": 0,
+                            "tuningy": 0.95,
+                            "unlock": [{
+                                "weapon": "TAQ-M",
+                                "level": 22
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Aim OP-V4",
+                            "tuningx": 1.8,
+                            "tuningy": 1.94,
+                            "unlock": [{
+                                "weapon": "BAS-P",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "FTAC Ripper 56",
+                            "tuningx": 0.27,
+                            "tuningy": 0.57,
+                            "unlock": [{
+                                "weapon": "Lachmann-762",
+                                "level": 6
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "50 Round Drum",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "TAQ-V",
+                                "level": 20
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "FSS Combat Grip",
+                            "tuningx": 0.3,
+                            "tuningy": 0.52,
+                            "unlock": [{
+                                "weapon": "TAQ-56",
+                                "level": 9
+                            }]
+                        }],
+                        "created_at": "2022-12-20T14:00:09+00:00",
+                        "created_date": "2022-12-20",
+                        "createdsortnr": 6,
+                        "slug": "taq-v",
+                        "weapon": "TAQ-V",
+                        "type": "BR",
+                        "platform": "Tactique Verte",
+                        "tier": "S",
+                        "ammotype": "7.62 NATO",
+                        "unlock": {
+                            "name": "TAQ-56",
+                            "level": 11
+                        },
+                        "youtubeid": "EJGRUFdipZM",
+                        "thumbnail": "https://i.ytimg.com/vi/EJGRUFdipZM/mqdefault.jpg",
+                        "title": "Top 10 Long Range Meta Weapons in Warzone 2 | Best Class Setups",
+                        "views": 57535,
+                        "likes": 2526,
+                        "comments": 207
+                    }, {
+                        "game": "wz2",
+                        "buildid": 270,
+                        "username": "jgod",
+                        "displayname": "JGOD",
+                        "avatar": "https://yt3.ggpht.com/bi3teNHhFik0iySQqayG3-miod78bteKGHQd5gUYHiMVl8bA2qtCOPg3iG5d1SC9iZ6slsD4GkQ=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@jgod",
+                        "modifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Talon Sixteen",
+                            "tuningx": -0.77,
+                            "tuningy": 1.04,
+                            "unlock": [{
+                                "weapon": "Lockwood MK2",
+                                "level": 2
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Aim OP-V4",
+                            "tuningx": 1.8,
+                            "tuningy": 0.58,
+                            "unlock": [{
+                                "weapon": "BAS-P",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "SA Side Grip",
+                            "tuningx": 0.25,
+                            "tuningy": 0.39,
+                            "unlock": [{
+                                "weapon": "Raal MG",
+                                "level": 19
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": ".338 Mag High Velocity",
+                            "tuningx": -5.81,
+                            "tuningy": -0.52,
+                            "unlock": [{
+                                "weapon": "Raal MG",
+                                "level": 7
+                            }]
+                        }, {
+                            "slot": "Magazine",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "STIP-40 Grip",
+                            "tuningx": 0.33,
+                            "tuningy": 0.68,
+                            "unlock": [{
+                                "weapon": "Raal MG",
+                                "level": 8
+                            }]
+                        }],
+                        "created_at": "2022-12-20T14:00:09+00:00",
+                        "created_date": "2022-12-20",
+                        "createdsortnr": 7,
+                        "slug": "raal-mg",
+                        "weapon": "Raal MG",
+                        "type": "LMG",
+                        "platform": "Raal",
+                        "tier": "A",
+                        "ammotype": ".338 Norma Mag",
+                        "unlock": {
+                            "name": "Player",
+                            "level": 25
+                        },
+                        "youtubeid": "EJGRUFdipZM",
+                        "thumbnail": "https://i.ytimg.com/vi/EJGRUFdipZM/mqdefault.jpg",
+                        "title": "Top 10 Long Range Meta Weapons in Warzone 2 | Best Class Setups",
+                        "views": 57535,
+                        "likes": 2526,
+                        "comments": 207
+                    }],
+                    "dataLoadouts": [{
+                        "game": "wz2",
+                        "loadoutid": 12,
+                        "username": "whosimmortal",
+                        "displayname": "WhosImmortal",
+                        "avatar": "https://yt3.ggpht.com/ytc/AMLnZu9QTmIxYM_RKh-MhZau5QVzBO38EBmgGLo1s-9cqA=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@whosimmortal",
+                        "created_at": "2022-12-19T22:41:42.66229+00:00",
+                        "created_date": "2022-12-19",
+                        "createdsortnr": 1,
+                        "primaryslug": "rpk",
+                        "primaryweapon": "RPK",
+                        "primarytype": "LMG",
+                        "primaryplatform": "Kastovia",
+                        "primaryammotype": "7.62 Soviet",
+                        "primaryunlock": {
+                            "name": "Kastov 762",
+                            "level": 16
+                        },
+                        "primarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Polarfire-S",
+                            "tuningx": 1,
+                            "tuningy": -0.5,
+                            "unlock": [{
+                                "weapon": "Lachmann-762",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Schlager 3.4x",
+                            "tuningx": -1.5,
+                            "tuningy": -1.16,
+                            "unlock": [{
+                                "weapon": "Rapp H",
+                                "level": 12
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "Lockgrip Precision-40",
+                            "tuningx": -0.24,
+                            "tuningy": -0.8,
+                            "unlock": [{
+                                "weapon": "Lachmann Sub",
+                                "level": 9
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": "7.62 High Velocity",
+                            "tuningx": 9,
+                            "tuningy": 0.7,
+                            "unlock": [{
+                                "weapon": "Kastov 762",
+                                "level": 13
+                            }]
+                        }, {
+                            "slot": "Magazine",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Demo-X2 Grip",
+                            "tuningx": 0.36,
+                            "tuningy": 0.74,
+                            "unlock": [{
+                                "weapon": "RPK",
+                                "level": 18
+                            }]
+                        }],
+                        "secondaryslug": "x13-auto",
+                        "secondaryweapon": "X13 Auto",
+                        "secondarytype": "Handgun",
+                        "secondaryplatform": "XRK",
+                        "secondaryammotype": "9mm Parabellum",
+                        "secondaryunlock": {
+                            "name": "X12",
+                            "level": 10
+                        },
+                        "secondarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Forge DX90-F",
+                            "tuningx": 1,
+                            "tuningy": 0,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 11
+                            }, {
+                                "weapon": "MX9",
+                                "level": 15
+                            }, {
+                                "weapon": "P890",
+                                "level": 21
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "XRK LUC-9",
+                            "tuningx": 0.4,
+                            "tuningy": 0.35,
+                            "unlock": [{
+                                "weapon": "X13 Auto",
+                                "level": 7
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": "1mW Pistol Laser",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "P890",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Optic",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "24 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 8
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Akimbo X13",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "tactical": "Stun Grenade",
+                        "tacticalslug": "stun-grenade",
+                        "lethal": "Drill Charge",
+                        "lethalslug": "drill-charge",
+                        "perkpackage": "Vanguard",
+                        "perk1": "Double Time",
+                        "perk1slug": "double-time",
+                        "perk2": "Bomb Squad",
+                        "perk2slug": "bomb-squad",
+                        "perk3": "Resupply",
+                        "perk3slug": "resupply",
+                        "perk4": "High Alert",
+                        "perk4slug": "high-alert",
+                        "youtubeid": "6V_aRihvkac",
+                        "thumbnail": "https://i.ytimg.com/vi/6V_aRihvkac/mqdefault.jpg",
+                        "title": "WARZONE 2: Top 10 BEST META LOADOUTS After Update! (WARZONE 2 Best Weapons)",
+                        "views": 181302,
+                        "likes": 4051,
+                        "comments": 284
+                    }, {
+                        "game": "wz2",
+                        "loadoutid": 11,
+                        "username": "whosimmortal",
+                        "displayname": "WhosImmortal",
+                        "avatar": "https://yt3.ggpht.com/ytc/AMLnZu9QTmIxYM_RKh-MhZau5QVzBO38EBmgGLo1s-9cqA=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@whosimmortal",
+                        "created_at": "2022-12-19T22:41:28.806916+00:00",
+                        "created_date": "2022-12-19",
+                        "createdsortnr": 2,
+                        "primaryslug": "taq-56",
+                        "primaryweapon": "TAQ-56",
+                        "primarytype": "AR",
+                        "primaryplatform": "Tactique Verte",
+                        "primaryammotype": "5.56 NATO",
+                        "primaryunlock": {
+                            "name": "Player",
+                            "level": 19
+                        },
+                        "primarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Echoless-80",
+                            "tuningx": 1,
+                            "tuningy": -0.41,
+                            "unlock": [{
+                                "weapon": "TAQ-56",
+                                "level": 14
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "17.5\" Tundra Pro Barrel",
+                            "tuningx": 0.4,
+                            "tuningy": 0.48,
+                            "unlock": [{
+                                "weapon": "TAQ-56",
+                                "level": 12
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Aim OP-V4",
+                            "tuningx": -1.65,
+                            "tuningy": -1.74,
+                            "unlock": [{
+                                "weapon": "BAS-P",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "FTAC Ripper 56",
+                            "tuningx": 0.26,
+                            "tuningy": 0.52,
+                            "unlock": [{
+                                "weapon": "Lachmann-762",
+                                "level": 6
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "40 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "TAQ-56",
+                                "level": 7
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "secondaryslug": "x13-auto",
+                        "secondaryweapon": "X13 Auto",
+                        "secondarytype": "Handgun",
+                        "secondaryplatform": "XRK",
+                        "secondaryammotype": "9mm Parabellum",
+                        "secondaryunlock": {
+                            "name": "X12",
+                            "level": 10
+                        },
+                        "secondarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Forge DX90-F",
+                            "tuningx": 1,
+                            "tuningy": 0,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 11
+                            }, {
+                                "weapon": "MX9",
+                                "level": 15
+                            }, {
+                                "weapon": "P890",
+                                "level": 21
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "XRK LUC-9",
+                            "tuningx": 0.4,
+                            "tuningy": 0.35,
+                            "unlock": [{
+                                "weapon": "X13 Auto",
+                                "level": 7
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": "1mW Pistol Laser",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "P890",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Optic",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "24 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 8
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Akimbo X13",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "tactical": "Stun Grenade",
+                        "tacticalslug": "stun-grenade",
+                        "lethal": "Drill Charge",
+                        "lethalslug": "drill-charge",
+                        "perkpackage": "Vanguard",
+                        "perk1": "Double Time",
+                        "perk1slug": "double-time",
+                        "perk2": "Bomb Squad",
+                        "perk2slug": "bomb-squad",
+                        "perk3": "Resupply",
+                        "perk3slug": "resupply",
+                        "perk4": "High Alert",
+                        "perk4slug": "high-alert",
+                        "youtubeid": "6V_aRihvkac",
+                        "thumbnail": "https://i.ytimg.com/vi/6V_aRihvkac/mqdefault.jpg",
+                        "title": "WARZONE 2: Top 10 BEST META LOADOUTS After Update! (WARZONE 2 Best Weapons)",
+                        "views": 181302,
+                        "likes": 4051,
+                        "comments": 284
+                    }, {
+                        "game": "wz2",
+                        "loadoutid": 10,
+                        "username": "whosimmortal",
+                        "displayname": "WhosImmortal",
+                        "avatar": "https://yt3.ggpht.com/ytc/AMLnZu9QTmIxYM_RKh-MhZau5QVzBO38EBmgGLo1s-9cqA=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@whosimmortal",
+                        "created_at": "2022-12-19T22:40:59.108211+00:00",
+                        "created_date": "2022-12-19",
+                        "createdsortnr": 3,
+                        "primaryslug": "raal-mg",
+                        "primaryweapon": "Raal MG",
+                        "primarytype": "LMG",
+                        "primaryplatform": "Raal",
+                        "primaryammotype": ".338 Norma Mag",
+                        "primaryunlock": {
+                            "name": "Player",
+                            "level": 25
+                        },
+                        "primarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Nilsound 90",
+                            "tuningx": 0.61,
+                            "tuningy": -0.63,
+                            "unlock": [{
+                                "weapon": "SP-X 80",
+                                "level": 8
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "26.5\" Demo Field Pro Barrel",
+                            "tuningx": 0.32,
+                            "tuningy": 0.27,
+                            "unlock": [{
+                                "weapon": "Raal MG",
+                                "level": 20
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Aim OP-V4",
+                            "tuningx": -1.65,
+                            "tuningy": 0,
+                            "unlock": [{
+                                "weapon": "BAS-P",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "XRK Dune Grip",
+                            "tuningx": 0.17,
+                            "tuningy": 0.36,
+                            "unlock": [{
+                                "weapon": "Raal MG",
+                                "level": 13
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "STIP-40 Grip",
+                            "tuningx": 0.3,
+                            "tuningy": 0.74,
+                            "unlock": [{
+                                "weapon": "Raal MG",
+                                "level": 8
+                            }]
+                        }],
+                        "secondaryslug": "x13-auto",
+                        "secondaryweapon": "X13 Auto",
+                        "secondarytype": "Handgun",
+                        "secondaryplatform": "XRK",
+                        "secondaryammotype": "9mm Parabellum",
+                        "secondaryunlock": {
+                            "name": "X12",
+                            "level": 10
+                        },
+                        "secondarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Forge DX90-F",
+                            "tuningx": 1,
+                            "tuningy": 0,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 11
+                            }, {
+                                "weapon": "MX9",
+                                "level": 15
+                            }, {
+                                "weapon": "P890",
+                                "level": 21
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "XRK LUC-9",
+                            "tuningx": 0.4,
+                            "tuningy": 0.35,
+                            "unlock": [{
+                                "weapon": "X13 Auto",
+                                "level": 7
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": "1mW Pistol Laser",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "P890",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Optic",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "24 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 8
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Akimbo X13",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "tactical": "Stun Grenade",
+                        "tacticalslug": "stun-grenade",
+                        "lethal": "Drill Charge",
+                        "lethalslug": "drill-charge",
+                        "perkpackage": "Vanguard",
+                        "perk1": "Double Time",
+                        "perk1slug": "double-time",
+                        "perk2": "Bomb Squad",
+                        "perk2slug": "bomb-squad",
+                        "perk3": "Resupply",
+                        "perk3slug": "resupply",
+                        "perk4": "High Alert",
+                        "perk4slug": "high-alert",
+                        "youtubeid": "6V_aRihvkac",
+                        "thumbnail": "https://i.ytimg.com/vi/6V_aRihvkac/mqdefault.jpg",
+                        "title": "WARZONE 2: Top 10 BEST META LOADOUTS After Update! (WARZONE 2 Best Weapons)",
+                        "views": 181302,
+                        "likes": 4051,
+                        "comments": 284
+                    }, {
+                        "game": "wz2",
+                        "loadoutid": 9,
+                        "username": "whosimmortal",
+                        "displayname": "WhosImmortal",
+                        "avatar": "https://yt3.ggpht.com/ytc/AMLnZu9QTmIxYM_RKh-MhZau5QVzBO38EBmgGLo1s-9cqA=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@whosimmortal",
+                        "created_at": "2022-12-19T22:40:45.608259+00:00",
+                        "created_date": "2022-12-19",
+                        "createdsortnr": 4,
+                        "primaryslug": "kastov-762",
+                        "primaryweapon": "Kastov 762",
+                        "primarytype": "AR",
+                        "primaryplatform": "Kastovia",
+                        "primaryammotype": "7.62 Soviet",
+                        "primaryunlock": {
+                            "name": "Player",
+                            "level": 23
+                        },
+                        "primarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Kastovia DX90",
+                            "tuningx": 0.94,
+                            "tuningy": -0.41,
+                            "unlock": [{
+                                "weapon": "Kastov 762",
+                                "level": 2
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Schlager 3.4x",
+                            "tuningx": -1.5,
+                            "tuningy": -0.58,
+                            "unlock": [{
+                                "weapon": "Rapp H",
+                                "level": 12
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "Phase-3 Grip",
+                            "tuningx": 0.35,
+                            "tuningy": 0.65,
+                            "unlock": [{
+                                "weapon": "Vaznev-9K",
+                                "level": 9
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "40 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "Kastov 762",
+                                "level": 14
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Demo-X2 Grip",
+                            "tuningx": 0.28,
+                            "tuningy": 0.65,
+                            "unlock": [{
+                                "weapon": "RPK",
+                                "level": 18
+                            }]
+                        }],
+                        "secondaryslug": "x13-auto",
+                        "secondaryweapon": "X13 Auto",
+                        "secondarytype": "Handgun",
+                        "secondaryplatform": "XRK",
+                        "secondaryammotype": "9mm Parabellum",
+                        "secondaryunlock": {
+                            "name": "X12",
+                            "level": 10
+                        },
+                        "secondarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Forge DX90-F",
+                            "tuningx": 1,
+                            "tuningy": 0,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 11
+                            }, {
+                                "weapon": "MX9",
+                                "level": 15
+                            }, {
+                                "weapon": "P890",
+                                "level": 21
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "XRK LUC-9",
+                            "tuningx": 0.4,
+                            "tuningy": 0.35,
+                            "unlock": [{
+                                "weapon": "X13 Auto",
+                                "level": 7
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": "1mW Pistol Laser",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "P890",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Optic",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "24 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 8
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Akimbo X13",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "tactical": "Stun Grenade",
+                        "tacticalslug": "stun-grenade",
+                        "lethal": "Drill Charge",
+                        "lethalslug": "drill-charge",
+                        "perkpackage": "Vanguard",
+                        "perk1": "Double Time",
+                        "perk1slug": "double-time",
+                        "perk2": "Bomb Squad",
+                        "perk2slug": "bomb-squad",
+                        "perk3": "Resupply",
+                        "perk3slug": "resupply",
+                        "perk4": "High Alert",
+                        "perk4slug": "high-alert",
+                        "youtubeid": "6V_aRihvkac",
+                        "thumbnail": "https://i.ytimg.com/vi/6V_aRihvkac/mqdefault.jpg",
+                        "title": "WARZONE 2: Top 10 BEST META LOADOUTS After Update! (WARZONE 2 Best Weapons)",
+                        "views": 181302,
+                        "likes": 4051,
+                        "comments": 284
+                    }, {
+                        "game": "wz2",
+                        "loadoutid": 8,
+                        "username": "whosimmortal",
+                        "displayname": "WhosImmortal",
+                        "avatar": "https://yt3.ggpht.com/ytc/AMLnZu9QTmIxYM_RKh-MhZau5QVzBO38EBmgGLo1s-9cqA=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@whosimmortal",
+                        "created_at": "2022-12-19T22:40:35.836487+00:00",
+                        "created_date": "2022-12-19",
+                        "createdsortnr": 5,
+                        "primaryslug": "fennec-45",
+                        "primaryweapon": "Fennec 45",
+                        "primarytype": "SMG",
+                        "primaryplatform": "Fennec",
+                        "primaryammotype": ".45 Auto",
+                        "primaryunlock": {
+                            "name": "Player",
+                            "level": 38
+                        },
+                        "primarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "Fennec Covert Force",
+                            "tuningx": -0.26,
+                            "tuningy": -0.5,
+                            "unlock": [{
+                                "weapon": "Fennec 45",
+                                "level": 20
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": "VLK LZR 7mW",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "STB 556",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Optic",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "FSS Sharkfin 90",
+                            "tuningx": -0.32,
+                            "tuningy": -0.65,
+                            "unlock": [{
+                                "weapon": "Fennec 45",
+                                "level": 2
+                            }, {
+                                "weapon": "M4",
+                                "level": 6
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "Fennec Mag 45",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "Fennec 45",
+                                "level": 15
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Fennec Rubber Grip",
+                            "tuningx": -0.22,
+                            "tuningy": 0.61,
+                            "unlock": [{
+                                "weapon": "Fennec 45",
+                                "level": 21
+                            }]
+                        }],
+                        "secondaryslug": "x13-auto",
+                        "secondaryweapon": "X13 Auto",
+                        "secondarytype": "Handgun",
+                        "secondaryplatform": "XRK",
+                        "secondaryammotype": "9mm Parabellum",
+                        "secondaryunlock": {
+                            "name": "X12",
+                            "level": 10
+                        },
+                        "secondarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Forge DX90-F",
+                            "tuningx": 1,
+                            "tuningy": 0,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 11
+                            }, {
+                                "weapon": "MX9",
+                                "level": 15
+                            }, {
+                                "weapon": "P890",
+                                "level": 21
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "XRK LUC-9",
+                            "tuningx": 0.4,
+                            "tuningy": 0.35,
+                            "unlock": [{
+                                "weapon": "X13 Auto",
+                                "level": 7
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": "1mW Pistol Laser",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "P890",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Optic",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "24 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 8
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Akimbo X13",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "tactical": "Stun Grenade",
+                        "tacticalslug": "stun-grenade",
+                        "lethal": "Drill Charge",
+                        "lethalslug": "drill-charge",
+                        "perkpackage": "Vanguard",
+                        "perk1": "Double Time",
+                        "perk1slug": "double-time",
+                        "perk2": "Bomb Squad",
+                        "perk2slug": "bomb-squad",
+                        "perk3": "Resupply",
+                        "perk3slug": "resupply",
+                        "perk4": "High Alert",
+                        "perk4slug": "high-alert",
+                        "youtubeid": "6V_aRihvkac",
+                        "thumbnail": "https://i.ytimg.com/vi/6V_aRihvkac/mqdefault.jpg",
+                        "title": "WARZONE 2: Top 10 BEST META LOADOUTS After Update! (WARZONE 2 Best Weapons)",
+                        "views": 181302,
+                        "likes": 4051,
+                        "comments": 284
+                    }, {
+                        "game": "wz2",
+                        "loadoutid": 4,
+                        "username": "whosimmortal",
+                        "displayname": "WhosImmortal",
+                        "avatar": "https://yt3.ggpht.com/ytc/AMLnZu9QTmIxYM_RKh-MhZau5QVzBO38EBmgGLo1s-9cqA=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@whosimmortal",
+                        "created_at": "2022-12-19T22:37:18.347946+00:00",
+                        "created_date": "2022-12-19",
+                        "createdsortnr": 6,
+                        "primaryslug": "m4",
+                        "primaryweapon": "M4",
+                        "primarytype": "AR",
+                        "primaryplatform": "M4",
+                        "primaryammotype": "5.56 NATO",
+                        "primaryunlock": {
+                            "name": "Player",
+                            "level": 1
+                        },
+                        "primarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Echoless-80",
+                            "tuningx": 0.45,
+                            "tuningy": -0.81,
+                            "unlock": [{
+                                "weapon": "TAQ-56",
+                                "level": 14
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "Hightower 20\" Barrel",
+                            "tuningx": 0.27,
+                            "tuningy": 0.35,
+                            "unlock": [{
+                                "weapon": "M4",
+                                "level": 15
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Aim OP-V4",
+                            "tuningx": -1.65,
+                            "tuningy": -1.65,
+                            "unlock": [{
+                                "weapon": "BAS-P",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "FTAC Ripper 56",
+                            "tuningx": 0.19,
+                            "tuningy": 0.44,
+                            "unlock": [{
+                                "weapon": "Lachmann-762",
+                                "level": 6
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "45 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "M4",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "secondaryslug": "x13-auto",
+                        "secondaryweapon": "X13 Auto",
+                        "secondarytype": "Handgun",
+                        "secondaryplatform": "XRK",
+                        "secondaryammotype": "9mm Parabellum",
+                        "secondaryunlock": {
+                            "name": "X12",
+                            "level": 10
+                        },
+                        "secondarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Forge DX90-F",
+                            "tuningx": 1,
+                            "tuningy": 0,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 11
+                            }, {
+                                "weapon": "MX9",
+                                "level": 15
+                            }, {
+                                "weapon": "P890",
+                                "level": 21
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "XRK LUC-9",
+                            "tuningx": 0.4,
+                            "tuningy": 0.35,
+                            "unlock": [{
+                                "weapon": "X13 Auto",
+                                "level": 7
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": "1mW Pistol Laser",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "P890",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Optic",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "24 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 8
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Akimbo X13",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "tactical": "Stun Grenade",
+                        "tacticalslug": "stun-grenade",
+                        "lethal": "Drill Charge",
+                        "lethalslug": "drill-charge",
+                        "perkpackage": "Recon",
+                        "perk1": "Double Time",
+                        "perk1slug": "double-time",
+                        "perk2": "Tracker",
+                        "perk2slug": "tracker",
+                        "perk3": "Focus",
+                        "perk3slug": "focus",
+                        "perk4": "Birdseye",
+                        "perk4slug": "birdseye",
+                        "youtubeid": "6V_aRihvkac",
+                        "thumbnail": "https://i.ytimg.com/vi/6V_aRihvkac/mqdefault.jpg",
+                        "title": "WARZONE 2: Top 10 BEST META LOADOUTS After Update! (WARZONE 2 Best Weapons)",
+                        "views": 181302,
+                        "likes": 4051,
+                        "comments": 284
+                    }, {
+                        "game": "wz2",
+                        "loadoutid": 3,
+                        "username": "whosimmortal",
+                        "displayname": "WhosImmortal",
+                        "avatar": "https://yt3.ggpht.com/ytc/AMLnZu9QTmIxYM_RKh-MhZau5QVzBO38EBmgGLo1s-9cqA=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@whosimmortal",
+                        "created_at": "2022-12-19T22:37:04.855577+00:00",
+                        "created_date": "2022-12-19",
+                        "createdsortnr": 7,
+                        "primaryslug": "sakin-mg38",
+                        "primaryweapon": "Sakin MG38",
+                        "primarytype": "LMG",
+                        "primaryplatform": "Sakin MG",
+                        "primaryammotype": "7.62 NATO",
+                        "primaryunlock": {
+                            "name": "Player",
+                            "level": 1
+                        },
+                        "primarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Kastovia DX90",
+                            "tuningx": 1,
+                            "tuningy": 1.08,
+                            "unlock": [{
+                                "weapon": "Kastov 762",
+                                "level": 2
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "20\" Bruen Silver Series Barrel",
+                            "tuningx": 0.4,
+                            "tuningy": 0.34,
+                            "unlock": [{
+                                "weapon": "Sakin MG38",
+                                "level": 16
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Optic",
+                            "modification": "Aim OP-V4",
+                            "tuningx": -1.65,
+                            "tuningy": -0.58,
+                            "unlock": [{
+                                "weapon": "BAS-P",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": "FTAC Ripper 56",
+                            "tuningx": 0.22,
+                            "tuningy": 0.8,
+                            "unlock": [{
+                                "weapon": "Lachmann-762",
+                                "level": 6
+                            }]
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Bruen G305 Grip Wrap",
+                            "tuningx": 0.25,
+                            "tuningy": 0.71,
+                            "unlock": [{
+                                "weapon": "Sakin MG38",
+                                "level": 10
+                            }]
+                        }],
+                        "secondaryslug": "x13-auto",
+                        "secondaryweapon": "X13 Auto",
+                        "secondarytype": "Handgun",
+                        "secondaryplatform": "XRK",
+                        "secondaryammotype": "9mm Parabellum",
+                        "secondaryunlock": {
+                            "name": "X12",
+                            "level": 10
+                        },
+                        "secondarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Forge DX90-F",
+                            "tuningx": 1,
+                            "tuningy": 0,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 11
+                            }, {
+                                "weapon": "MX9",
+                                "level": 15
+                            }, {
+                                "weapon": "P890",
+                                "level": 21
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "XRK LUC-9",
+                            "tuningx": 0.4,
+                            "tuningy": 0.35,
+                            "unlock": [{
+                                "weapon": "X13 Auto",
+                                "level": 7
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": "1mW Pistol Laser",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "P890",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Optic",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "24 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 8
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Akimbo X13",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "tactical": "Stun Grenade",
+                        "tacticalslug": "stun-grenade",
+                        "lethal": "Drill Charge",
+                        "lethalslug": "drill-charge",
+                        "perkpackage": "Recon",
+                        "perk1": "Double Time",
+                        "perk1slug": "double-time",
+                        "perk2": "Tracker",
+                        "perk2slug": "tracker",
+                        "perk3": "Focus",
+                        "perk3slug": "focus",
+                        "perk4": "Birdseye",
+                        "perk4slug": "birdseye",
+                        "youtubeid": "6V_aRihvkac",
+                        "thumbnail": "https://i.ytimg.com/vi/6V_aRihvkac/mqdefault.jpg",
+                        "title": "WARZONE 2: Top 10 BEST META LOADOUTS After Update! (WARZONE 2 Best Weapons)",
+                        "views": 181302,
+                        "likes": 4051,
+                        "comments": 284
+                    }, {
+                        "game": "wz2",
+                        "loadoutid": 2,
+                        "username": "whosimmortal",
+                        "displayname": "WhosImmortal",
+                        "avatar": "https://yt3.ggpht.com/ytc/AMLnZu9QTmIxYM_RKh-MhZau5QVzBO38EBmgGLo1s-9cqA=s88-c-k-c0x00ffffff-no-rj",
+                        "youtubehandle": "@whosimmortal",
+                        "created_at": "2022-12-19T22:36:18.778253+00:00",
+                        "created_date": "2022-12-19",
+                        "createdsortnr": 8,
+                        "primaryslug": "kastov-74u",
+                        "primaryweapon": "Kastov-74U",
+                        "primarytype": "AR",
+                        "primaryplatform": "Kastovia",
+                        "primaryammotype": "5.45x39mm",
+                        "primaryunlock": {
+                            "name": "Kastov 545",
+                            "level": 13
+                        },
+                        "primarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Echoless-80",
+                            "tuningx": 0.9,
+                            "tuningy": -1.13,
+                            "unlock": [{
+                                "weapon": "TAQ-56",
+                                "level": 14
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "BR209 Barrel",
+                            "tuningx": -0.4,
+                            "tuningy": 0.18,
+                            "unlock": [{
+                                "weapon": "Kastov-74U",
+                                "level": 11
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": "FSS OLE-V Laser",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "EBR-14",
+                                "level": 10
+                            }]
+                        }, {
+                            "slot": "Optic",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "45 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "Kastov-74U",
+                                "level": 14
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Demo-X2 Grip",
+                            "tuningx": -0.22,
+                            "tuningy": -0.65,
+                            "unlock": [{
+                                "weapon": "RPK",
+                                "level": 18
+                            }]
+                        }],
+                        "secondaryslug": "x13-auto",
+                        "secondaryweapon": "X13 Auto",
+                        "secondarytype": "Handgun",
+                        "secondaryplatform": "XRK",
+                        "secondaryammotype": "9mm Parabellum",
+                        "secondaryunlock": {
+                            "name": "X12",
+                            "level": 10
+                        },
+                        "secondarymodifications": [{
+                            "slot": "Muzzle",
+                            "modification": "Forge DX90-F",
+                            "tuningx": 1,
+                            "tuningy": 0,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 11
+                            }, {
+                                "weapon": "MX9",
+                                "level": 15
+                            }, {
+                                "weapon": "P890",
+                                "level": 21
+                            }]
+                        }, {
+                            "slot": "Barrel",
+                            "modification": "XRK LUC-9",
+                            "tuningx": 0.4,
+                            "tuningy": 0.35,
+                            "unlock": [{
+                                "weapon": "X13 Auto",
+                                "level": 7
+                            }]
+                        }, {
+                            "slot": "Laser",
+                            "modification": "1mW Pistol Laser",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "P890",
+                                "level": 5
+                            }]
+                        }, {
+                            "slot": "Optic",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Stock",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Underbarrel",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Ammunition",
+                            "modification": null,
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }, {
+                            "slot": "Magazine",
+                            "modification": "24 Round Mag",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": [{
+                                "weapon": "X12",
+                                "level": 8
+                            }]
+                        }, {
+                            "slot": "Rear Grip",
+                            "modification": "Akimbo X13",
+                            "tuningx": null,
+                            "tuningy": null,
+                            "unlock": null
+                        }],
+                        "tactical": "Stun Grenade",
+                        "tacticalslug": "stun-grenade",
+                        "lethal": "Drill Charge",
+                        "lethalslug": "drill-charge",
+                        "perkpackage": "Recon",
+                        "perk1": "Double Time",
+                        "perk1slug": "double-time",
+                        "perk2": "Tracker",
+                        "perk2slug": "tracker",
+                        "perk3": "Focus",
+                        "perk3slug": "focus",
+                        "perk4": "Birdseye",
+                        "perk4slug": "birdseye",
+                        "youtubeid": "6V_aRihvkac",
+                        "thumbnail": "https://i.ytimg.com/vi/6V_aRihvkac/mqdefault.jpg",
+                        "title": "WARZONE 2: Top 10 BEST META LOADOUTS After Update! (WARZONE 2 Best Weapons)",
+                        "views": 181302,
+                        "likes": 4051,
+                        "comments": 284
+                    }]
+                },
+                "__N_SSG": true
+            },
+            "page": "/",
+            "query": {},
+            "buildId": "qSuuy6oYNZi2ZZcs2JWQ-",
+            "assetPrefix": "https://wzranked.b-cdn.net",
+            "isFallback": false,
+            "gsp": true,
+            "scriptLoader": []
+        }
+    </script>
+</body>
+
+</html>
